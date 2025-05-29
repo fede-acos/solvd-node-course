@@ -12,6 +12,8 @@ considering only positive integers (you can avoid negative numbers, all numbers 
 
 `String.multiply(string) => string` */
 
+const test = "5111";
+
 String.prototype.plus = function (string) {
   let carryOver = "0";
 
@@ -39,8 +41,6 @@ String.prototype.plus = function (string) {
   }
   return result;
 };
-
-const test = "5111";
 
 String.prototype.minus = function (string) {
   let i = this.length - 1;
