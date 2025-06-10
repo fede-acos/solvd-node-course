@@ -10,7 +10,7 @@ export const DataTransform = {
       return JSON.stringify(value);
     return String(value);
   },
-  invertBoolean: (value) => {
+  invertBoolean: (boolean) => {
     if (typeof value !== "boolean") throw new Error("Incorrect Type");
     return !value;
   },
