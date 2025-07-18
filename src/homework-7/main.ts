@@ -1,8 +1,4 @@
 /* Task 1 */
-
-import { rejects } from "assert";
-import { resolve } from "path";
-
 function promiseAll<T>(promises: Promise<T>[]) {
   return new Promise((resolve, reject) => {
     const results: any[] = [];
